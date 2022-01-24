@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	var f *os.File // 
+	var f *os.File
 	f = os.Stdin
 	defer f.Close()
 
